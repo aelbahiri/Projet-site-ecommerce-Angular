@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/common/header/header.component';
 import { SliderComponent } from './components/common/slider/slider.component';
 import { BodyComponent } from './components/common/body/body.component';
 import { FooterComponent } from './components/common/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ProductsComponent } from './components/products/products.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { FooterComponent } from './components/common/footer/footer.component';
     SliderComponent,
     BodyComponent,
     FooterComponent,
+    HomeComponent,
+    PageNotFoundComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
